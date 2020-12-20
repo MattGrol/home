@@ -47,7 +47,7 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/matteo.png"),
+  imageLink: require("../editable-stuff/hashirshoaeb.png"),
   imageSize: 375,
   message:
     "My name is Matteo...!",
