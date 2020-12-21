@@ -19,6 +19,9 @@ import Skills from "./components/home/Skills";
 // import BlogPost from "./components/blog/BlogPost";
 import GetInTouch from "./components/home/GetInTouch.jsx";
 import Leadership from "./components/home/Leadership.jsx";
+import Interests from "./components/home/Interests";
+import Resume from "./components/Resume";
+import Education from "./components/Education";
 
 const Home = React.forwardRef((props, ref) => {
   return (
@@ -39,6 +42,15 @@ const Home = React.forwardRef((props, ref) => {
           resume={about.resume}
         />
       )}
+       {<Education />}
+      {skills.show && (
+        <Skills
+          heading={skills.heading}
+          hardSkills={skills.hardSkills}
+          softSkills={skills.softSkills}
+        />
+      )}
+      {<Interests />}
       {repos.show && (
         <Project
           heading={repos.heading}
@@ -47,21 +59,7 @@ const Home = React.forwardRef((props, ref) => {
           specfic={repos.specificRepos}
         />
       )}
-      {leadership.show && (
-        <Leadership
-          heading={leadership.heading}
-          message={leadership.message}
-          img={leadership.images}
-          imageSize={leadership.imageSize}
-        />
-      )}
-      {skills.show && (
-        <Skills
-          heading={skills.heading}
-          hardSkills={skills.hardSkills}
-          softSkills={skills.softSkills}
-        />
-      )}
+  
     </>
   );
 });

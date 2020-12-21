@@ -16,15 +16,18 @@
     "jquery": "^3.5.1",
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
-    "react": "^16.14.0",
+    "react": "latest",
     "react-bootstrap": "^1.4.0",
-    "react-dom": "^16.14.0",
+    "react-dom": "latest",
     "react-loading-skeleton": "^2.1.1",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.4",
     "react-typist": "^2.0.5",
-    "typescript": "^3.9.7"
+    "typescript": "^3.9.7",
+    "@material-ui/lab": "latest",
+    "@material-ui/icons": "latest",
+    "@material-ui/core": "latest"
   },
   "scripts": {
     "predeploy": "npm run build",
