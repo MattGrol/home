@@ -6,6 +6,8 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { mainBody, repos, about, skills } from "../editable-stuff/config.js";
 
+
+
 const Navigation = React.forwardRef((props, ref) => {
   // const { showBlog, FirstName } = config;
   const [isTop, setIsTop] = useState(true);
@@ -62,6 +64,7 @@ const Navigation = React.forwardRef((props, ref) => {
 
           {about.show && (
             <Nav.Link
+              activeClassName="active"
               className="nav-link lead"
               href={process.env.PUBLIC_URL + "/#aboutme"}
             >

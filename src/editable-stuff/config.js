@@ -5,7 +5,7 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
+  gradientColors: "#4484ce, #1ad7c0, #0cc948, #044a11, #062a45, #232626",
   firstName: "Matteo",
   middleName: "",
   lastName: "Grollino",
@@ -51,7 +51,7 @@ const about = {
   imageLink: require("../editable-stuff/hashirshoaeb.png"),
   imageSize: 375,
   message:
-    "Hello! My name is Matteo and I am an Engineer in Computer Science from The University of Calabria at Rende, in Italy. I will be graduating with my Master's degree in Computer Science and Engineering in December of 2020, with specialization in Cybersecurity. I also participated at the Cyberchallenge.IT 2020 project, where my passion for CTF (Capture The Flag) challenges is born. My other passions, besides the CTF, are football (sports in general), reading, videogames, series TV and Anime.",
+    "Hello! My name is Matteo and I'm an Engineer in Computer Science from The University of Calabria, in Rende (IT). I graduated with a Master's degree in Computer Science and Engineering in December of 2020, with specialization in Cybersecurity. I also participated at the Cyberchallenge.IT 2020 project, where my passion for CTF (Capture The Flag) challenges is born. My other passions, besides the CTF, are football (sports in general), reading, videogames, series TV and Anime.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -99,23 +99,34 @@ const skills = {
   hardSkills: [
     { name: "Python", value: 90 },
     { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
-  ],
+    { name: "Data Structures", value: 75 },
+    { name: "C", value: 70 },
+    { name: "JavaScript", value: 60 },
+    { name: "Java", value: 90 },
+    { name: "HTML/CSS", value: 60 },
+    { name: "Bash", value: 85 }, 
+ ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
+    { name: "Goal-Oriented", value: 90 },
+    { name: "Collaboration", value: 80 },
+    { name: "Positivity", value: 70 },
     { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Problem Solving", value: 95 },
+    { name: "Empathy", value: 80 },
+    { name: "Organization", value: 90 },
+    { name: "Creativity", value: 75 },
   ],
+  ctfSkills: [
+    { name: "Web Exploitation", value: 93 },
+    { name: "Binary Exploitation (Pwning)", value: 75},
+    { name: "Binary Reversing", value: 55},
+    { name: "Network Analysis", value: 60},
+    { name: "Cryptography", value: 65},
+    { name: "Misc and OSINT", value: 60},
+    { name: "Forensics", value:55},
+    { name: "Hardware", value: 20},
+ ],
+
 };
 
 // GET IN TOUCH SECTION

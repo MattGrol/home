@@ -49,22 +49,30 @@ code {
   transition: background-color 0.2s;
 }
 .navbar-white {
-  background-color: rgba(234, 236, 239, 0.81);
+  background-color: rgba(87, 87, 87, 0.81);
   transition: background-color 0.2s;
 }
 .brand {
-  color: #363636 !important;
+  color: #ffffff !important;
 }
-.nav-link {
-  transition: color, 0.2s;
+
+.navbar-light .navbar-nav .nav-link {
+   color:#ffffff;
+   background-color: trasparent;
+   
 }
+
+
+
 .toggler {
   border: none;
   padding: 4px;
   border-radius: 4px;
   &:focus {
     outline: none;
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: rgba(255, 255, 255, 0.5);
+
+
   }
 }
 .socialicons {
