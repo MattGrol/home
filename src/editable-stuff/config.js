@@ -10,6 +10,7 @@ const mainBody = {
   middleName: "",
   lastName: "Grollino",
   message: ' "Human Stupidity, that\'s why Hackers always win...!" ',
+  tags: "#ComputerScienceAndEngineering #CyberSecurity #EthicalHacker #CTF",
   icons: [
     {
       image: "fa-github",
@@ -50,7 +51,7 @@ const about = {
   imageLink: require("../editable-stuff/hashirshoaeb.png"),
   imageSize: 375,
   message:
-    "My name is Matteo...!",
+    "Hello! My name is Matteo and I am an Engineer in Computer Science from The University of Calabria at Rende, in Italy. I will be graduating with my Master's degree in Computer Science and Engineering in December of 2020, with specialization in Cybersecurity. I also participated at the Cyberchallenge.IT 2020 project, where my passion for CTF (Capture The Flag) challenges is born. My other passions, besides the CTF, are football (sports in general), reading, videogames, series TV and Anime.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -122,7 +123,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "TEXT",
+    "If you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "grollino.matteo@gmail.com",
 };
 
